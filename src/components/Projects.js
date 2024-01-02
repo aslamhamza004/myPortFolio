@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { projectSliderProps } from "../sliderProps";
 import { dataImage } from "../utilits";
 import DetailsPopup from "./popup/DetailsPopup";
+import Image from 'next/image'
 const Projects = () => {
   useEffect(() => {
     dataImage();
@@ -39,15 +40,15 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Youtube</span>
+                      <span className="category">UI Builder</span>
                       <h3 className="title">
-                        <span>Car Export</span>
+                        <span>SAAS based Web app</span>
                       </h3>
                     </div>
-                    <a
+                    {/* <a
                       className="orido_tm_full_link popup-youtube"
                       href="https://www.youtube.com/watch?v=7e90gBu4pas"
-                    />
+                    /> */}
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -60,15 +61,15 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Vimeo</span>
+                      <span className="category">Material Table Extension</span>
                       <h3 className="title">
-                        <span>Food delivery</span>
+                        <span>NPM package</span>
                       </h3>
                     </div>
-                    <a
+                    {/* <a
                       className="orido_tm_full_link popup-vimeo"
                       href="https://vimeo.com/337293658"
-                    />
+                    /> */}
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -81,15 +82,15 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Soundcloud</span>
+                      <span className="category">Email Builder</span>
                       <h3 className="title">
-                        <span>Ecommerce Website</span>
+                        <span>SAAS based Web app</span>
                       </h3>
                     </div>
-                    <a
+                    {/* <a
                       className="orido_tm_full_link soundcloude_link mfp-iframe audio"
                       href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    />
+                    /> */}
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -102,15 +103,15 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Details</span>
+                      <span className="category">LDUN</span>
                       <h3 className="title">
-                        <span>Mockup Phone</span>
+                        <span>Ecommerce Website</span>
                       </h3>
                     </div>
-                    <a
+                    {/* <a
                       className="orido_tm_full_link details_link c-pointer"
                       onClick={() => setDetailsPopup(true)}
-                    />
+                    /> */}
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -123,15 +124,15 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Popup</span>
+                      <span className="category">Grumpeat</span>
                       <h3 className="title">
-                        <span>Felix Photo</span>
+                        <span>Ecommerce Website</span>
                       </h3>
                     </div>
-                    <a
+                    {/* <a
                       className="orido_tm_full_link zoom"
                       href="img/portfolio/5.jpg"
-                    />
+                    /> */}
                   </div>
                 </SwiperSlide>
               </Swiper>

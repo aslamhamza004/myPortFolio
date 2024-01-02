@@ -4,39 +4,35 @@ import ServicePopup from "./popup/ServicePopup";
 
 const serviceData = [
   {
-    name: "UI/UX Design",
+    name: "Web Application Development",
     img: "img/service/1.jpg",
     description: [
-      "Orido is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Orido, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      `As a seasoned web developer, I wield both the MEAN and MERN stacks like trusty tools, crafting dynamic and engaging web experiences. My expertise doesn't just lie in coding; it extends to crafting full production-grade applications and e-commerce sites from scratch.`,
+      `The MEAN stack, with its robust MongoDB database, Express.js server-side framework, AngularJS front-end framework, and Node.js runtime, is my go-to for large-scale enterprise projects. Its tight integration and familiar MVC architecture streamline development, allowing me to build complex functionalities with rapid efficiency. AngularJS provides a structured approach to building highly interactive UIs, while Node.js' asynchronous nature ensures lightning-fast performance even under heavy loads.`,
+      `But for smaller, dynamic projects, I switch gears to the MERN stack. Replacing AngularJS with the nimble ReactJS library injects an extra dose of flexibility and dynamism. React's component-based architecture allows me to create modular, reusable UI elements, perfect for rapid prototyping and iterative development. This makes MERN ideal for single-page applications and interactive UIs that demand constant evolution.`,
+      `My skillset extends beyond the core stacks. I'm well-versed in building and publishing NPM packages, expanding the available functionalities for developers worldwide.`,
+      `Whether you need a data-driven enterprise solution or a sleek e-commerce platform, I have the expertise and the tools to bring your vision to life. My mastery of both MEAN and MERN empowers me to choose the ideal stack for your project, ensuring optimal performance, scalability, and maintainability. So, let's collaborate, and together, we'll build remarkable web experiences that captivate and engage.`,
     ],
   },
   {
-    name: "User Research",
+    name: "Performance & Efficiancy",
     img: "img/service/2.jpg",
     description: [
-      "Orido is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Orido, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      `I code for peak performance, crafting production-ready web apps and e-commerce sites in both MEAN and MERN stacks. MEAN's structured foundation excels in large-scale projects, while MERN's React magic delivers lightning-fast, dynamic UIs. Whether optimizing database queries or architecting efficient server-side logic, I leverage every tool in my arsenal – including custom NPM packages – to build blazing-fast, scalable web experiences that leave users and clients impressed. Bring your vision, I'll fuel it with efficiency`,
     ],
   },
   {
-    name: "UI Animation",
+    name: "UX/UI Design",
     img: "img/service/3.jpg",
     description: [
-      "Orido is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Orido, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      `I'm a UX/UI maestro, breathing life into web apps through pixel-perfect interfaces, be it MEAN or MERN. I transform Figma (or any design tool) magic into production-ready masterpieces, ensuring your app is not just functional, but a joy to navigate. Whether it's a full-fledged e-commerce platform or a data-driven enterprise solution, I craft responsive UIs that adapt seamlessly to any screen, captivating users across devices.`,
     ],
   },
   {
-    name: "Product Design",
+    name: "Debugging & Fixes",
     img: "img/service/4.jpg",
     description: [
-      "Orido is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Orido, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      `Web woes got you down? No worries, I'm a debugging ninja, slaying bugs in both MEAN and MERN stacks. Production-grade web apps, e-commerce giants, or sassy SaaS solutions, I untangle their errors with surgical precision. My keen eye spots memory leaks, logic flaws, and server tantrums, then I wield my Node.js know-how and JavaScript mastery to craft elegant fixes. Performance lagging? I optimize code like a Formula One pit crew. User Interface acting up? I'll rearchitect layouts and styles with React's finesse. So, ditch the debugging dread, I'm here to make your web apps purr!`,
     ],
   },
 ];

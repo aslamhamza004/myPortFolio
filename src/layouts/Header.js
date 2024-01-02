@@ -3,9 +3,9 @@ const Header = ({ dark }) => {
     <div className="orido_tm_header">
       <div className="header_in">
         <div className="logo">
-          <a href="#">
+          {/* <a href="#">
             <img src={`img/logo/${dark ? "light" : "logo"}.png`} alt="" />
-          </a>
+          </a> */}
         </div>
         <div className="menu">
           <ul className="anchor_nav">
@@ -29,14 +29,6 @@ const Header = ({ dark }) => {
             </li>
           </ul>
           <span className="ccc" />
-        </div>
-        <div className="button">
-          <a
-            href="https://themeforest.net/user/codeefly/portfolio"
-            target="_blank"
-          >
-            Purchase Now
-          </a>
         </div>
       </div>
     </div>

@@ -3,64 +3,47 @@ import { filter_hashtag } from "../utilits";
 import Counter from "./Counter";
 
 const counts = [
-  { name: "Trainings", value: 219 },
-  { name: "Written Book", value: 48 },
-  { name: "Listeners", value: 527 },
-  { name: "Own Projects", value: 12 },
+  { name: "Total Projects", value: 5 },
+  { name: " Million lines of code", value: 10 },
+  { name: "Own Projects", value: 2 },
+  { name: "Technologies", value: 9 },
 ];
 
 const skills = [
-  { name: "Figma", value: 90, icon: "img/svg/figma.svg" },
-  { name: "After Effect", value: "80", icon: "img/svg/Ae.svg" },
-  { name: "Photoshop", value: "85", icon: "img/svg/photoshop.svg" },
-  { name: "XD", value: "95", icon: "img/svg/Xd.svg" },
-  { name: "Illustrator", value: "90", icon: "img/svg/illustrator.svg" },
-  { name: "Indesign", value: "75", icon: "img/svg/Id.svg" },
+  { name: "Next.js", value: "90", icon: "img/svg/nextjsLogo.svg" },
+  { name: "React/Next", value: "80", icon: "img/svg/react_logo.svg" },
+  { name: "Angular", value: "80", icon: "img/svg/angular.svg" },
+  { name: "Rxjs", value: "85", icon: "img/svg/rxjs_logo.svg" },
+  { name: "MangoDB", value: "80", icon: "img/svg/mongoDBLogo.svg" },
+  { name: "Typecript", value: "90", icon: "img/svg/typescriptLogo.svg" },
+  { name: "Express.js", value: "80", icon: "img/svg/expressLogo.svg" },
+  { name: "Git", value: "90", icon: "img/pics/gitLogo.svg" },
+  { name: "Spring", value: "90", icon: "img/svg/springLogo.svg" },
 ];
 
 const experiences = [
   {
-    company: "Bauen Software Inc.",
-    designation: "Product Designer",
+    company: "Eximia.llc Lahore",
+    designation: "Sofware Engineer",
+    time: "2019 - Present",
+  },
+  {
+    company: "Freelancing",
+    designation: "MEAN stack developer",
     time: "2021 - Present",
-  },
-  {
-    company: "Bauen Software Inc.",
-    designation: "UX Designer",
-    time: "2020 - 2021",
-  },
-  {
-    company: "Bauen Software Inc.",
-    designation: "UI Designer",
-    time: "2018 - 2020",
-  },
-  {
-    company: "Bauen Software Inc.",
-    designation: "Web Designer",
-    time: "2016 - 2018",
   },
 ];
 
 const educations = [
   {
-    institution: "Stanford Univercity",
-    certificate: "Web Design Course",
-    time: "2021 - Present",
+    institution: "Punjab University College of Information Technology (PUCIT).",
+    certificate: "BS Software Engineering",
+    time: "2016 - 2020",
   },
   {
-    institution: "Art Univercity of New York",
-    certificate: "Art Director Course",
-    time: "2020 - 2021",
-  },
-  {
-    institution: "Amazon College",
-    certificate: "IOS Development",
-    time: "2018 - 2020",
-  },
-  {
-    institution: "Univercity of Texas",
-    certificate: "UX Expert",
-    time: "2017 - 2018",
+    institution: "Punjab Group of Colleges Okara District.",
+    certificate: "FSc Pre-Engineering",
+    time: "2014 - 2016",
   },
 ];
 
@@ -81,32 +64,29 @@ const ExpertAreas = () => {
               <div className="left">
                 <div className="orido_tm_main_title">
                   <h3>
-                    <span>
-                      My expert
-                      <br />
-                      areas
-                    </span>
+                    <span>My expertise</span>
                   </h3>
                 </div>
                 <div className="text">
                   <p>
-                    You can express yourself however you want and whenever you
-                    want, for free. You can customize a template or make your
-                    own from scratch, with an immersive library at your
-                    disposal. You can express yourself however you want and
-                    whenever you free.
-                  </p>
-                  <p>
-                    You can customize a template or make your own from scratch,
-                    with an immersive library at your disposal.
+                    {"I'm"} a full-stack chameleon, weaving magic with both the
+                    MEAN and MERN stacks! My JavaScript toolbox lets me conjure
+                    stunning UIs with React (or ReactJS in MERN) and build
+                    robust back-ends with Node.js and Express.js. From crafting
+                    pixel-perfect interfaces to designing data havens in MongoDB
+                    and shaping secure APIs, every layer is my playground. I
+                    love the efficiency of working across the entire stack,
+                    taking your ideas from napkin sketch to pixelated reality.
+                    {"Let's"} ditch the silos and build something extraordinary,
+                    together!
                   </p>
                 </div>
-                <div className="orido_tm_boxed_button">
+                {/* <div className="orido_tm_boxed_button">
                   <a href="#">
                     My Resume{" "}
                     <img className="svg" src="img/svg/paper.svg" alt="" />
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className="right">
                 <div className="filter">

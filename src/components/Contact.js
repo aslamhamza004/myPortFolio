@@ -4,7 +4,7 @@ const Contact = () => {
       <div className="orido_tm_contact">
         <div className="container">
           <div className="infobox">
-            <div className="video_button">
+            {/* <div className="video_button">
               <a
                 className="popup-youtube"
                 href="https://www.youtube.com/watch?v=7e90gBu4pas"
@@ -16,7 +16,7 @@ const Contact = () => {
                 />
                 <img className="svg" src="img/svg/play.svg" alt="" />
               </a>
-            </div>
+            </div> */}
             <div className="text">
               <h3>{`Let's`} work together</h3>
               <p>
@@ -37,7 +37,7 @@ const Contact = () => {
                   <span className="name">Call:</span>
                   <p>
                     <a className="line_effect" href="#">
-                      +1 (234) 567 890
+                      +92 (302) 1843472
                     </a>
                   </p>
                 </li>
@@ -45,7 +45,7 @@ const Contact = () => {
                   <span className="name">Email:</span>
                   <p>
                     <a className="line_effect" href="#">
-                      support@smith.com
+                      aslamhamza004@gmail.com
                     </a>
                   </p>
                 </li>

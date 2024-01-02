@@ -5,9 +5,9 @@ const About = () => {
         <div className="about_in">
           <div className="left">
             <div className="box">
-              <h3 className="year">10</h3>
+              <h3 className="year">3+</h3>
               <span className="experience">Years of Experience</span>
-              <h3 className="name">John Smith</h3>
+              <h3 className="name">Hamza Aslam</h3>
             </div>
           </div>
           <div className="right">
@@ -21,13 +21,12 @@ const About = () => {
             </div>
             <div className="text">
               <p>
-                With 10 years experience as a professional Web developer, I have
+                With 3+ years experience as a professional Web developer, I have
                 acquired the skills and knowledge necessary to make your project
-                a success. I enjoy every step of the design process, from
-                discussion and collaboration.
+                a success. I love to follow best practices because coding is an Art.
               </p>
             </div>
-            <div className="short">
+            {/* <div className="short">
               <div className="orido_tm_boxed_button">
                 <a href="img/cv/1.jpg" download>
                   Download CV{" "}
@@ -35,7 +34,7 @@ const About = () => {
                 </a>
               </div>
               <img src="img/signature.png" alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

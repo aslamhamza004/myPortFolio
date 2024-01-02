@@ -6,14 +6,13 @@ const Home = ({ dark }) => {
           <div className="details">
             <div className="short">
               <h3>
-                John Smith <img className="svg" src="img/svg/hi.svg" alt="" />
+                Hamza Aslam <img className="svg" src="img/svg/hi.svg" alt="" />
               </h3>
-              <span className="job">Visual Designer</span>
+              <span className="job">Web Developer</span>
             </div>
             <div className="text">
               <p>
-                {`I'm`} creative designer based in New York, and {`I'm`} very
-                passionate and dedicated to my work.
+              Leveraging years of web development expertise to create impactful online experiences tailored to your unique needs.
               </p>
             </div>
             <div className="buttons">
@@ -36,11 +35,11 @@ const Home = ({ dark }) => {
           <span>Follow me:</span>
           <ul>
             <li>
-              <a href="#">
-                <img className="svg" src="img/svg/social/be.svg" alt="" />
+              <a href="https://github.com/aslamhamza004" target="blank" title="Github">
+                <img className="svg" src="img/pics/gitLogo.svg" alt="" />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#">
                 <img className="svg" src="img/svg/social/dribbble.svg" alt="" />
               </a>
@@ -53,7 +52,7 @@ const Home = ({ dark }) => {
                   alt=""
                 />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -68,8 +67,8 @@ const Home = ({ dark }) => {
       </div>
       <div className="avatar">
         <div className="img">
-          <img src={`img/hero/${dark ? 2 : 1}.jpg`} alt="" />
-          <div className="video_button">
+          <img src={`img/pics/myPhoto.png`} alt="" />
+          {/* <div className="video_button">
             <a
               className="popup-youtube"
               href="https://www.youtube.com/watch?v=7e90gBu4pas"
@@ -77,7 +76,7 @@ const Home = ({ dark }) => {
               <img className="anim_circle" src="img/hero/welcome.png" alt="" />
               <img className="svg" src="img/svg/play.svg" alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
