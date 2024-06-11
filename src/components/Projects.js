@@ -33,10 +33,10 @@ const Projects = () => {
                 <SwiperSlide>
                   <div className="list_inner">
                     <div className="image">
-                      <img src="img/thumbs/37-40.jpg" alt="" />
+                      <img src="img/pics/ui-builder.jpg" alt="" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/1.jpg"
+                        data-img-url="img/pics/ui-builder.jpg"
                       />
                     </div>
                     <div className="details">
@@ -45,10 +45,10 @@ const Projects = () => {
                         <span>SAAS based Web app</span>
                       </h3>
                     </div>
-                    {/* <a
+                    <a
                       className="orido_tm_full_link popup-youtube"
                       href="https://www.youtube.com/watch?v=7e90gBu4pas"
-                    /> */}
+                    />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>

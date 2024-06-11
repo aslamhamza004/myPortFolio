@@ -11,12 +11,12 @@ const counts = [
 
 const skills = [
   { name: "Next.js", value: "90", icon: "img/svg/nextjsLogo.svg" },
-  { name: "React/Next", value: "80", icon: "img/svg/react_logo.svg" },
+  { name: "React", value: "80", icon: "img/svg/react_logo.svg" },
   { name: "Angular", value: "80", icon: "img/svg/angular.svg" },
-  { name: "Rxjs", value: "85", icon: "img/svg/rxjs_logo.svg" },
+  { name: "Express.js", value: "80", icon: "img/svg/expressLogo.svg" },
   { name: "MangoDB", value: "80", icon: "img/svg/mongoDBLogo.svg" },
   { name: "Typecript", value: "90", icon: "img/svg/typescriptLogo.svg" },
-  { name: "Express.js", value: "80", icon: "img/svg/expressLogo.svg" },
+  { name: "Rxjs", value: "85", icon: "img/svg/rxjs_logo.svg" },
   { name: "Git", value: "90", icon: "img/pics/gitLogo.svg" },
   { name: "Spring", value: "90", icon: "img/svg/springLogo.svg" },
 ];
@@ -24,7 +24,7 @@ const skills = [
 const experiences = [
   {
     company: "Eximia.llc Lahore",
-    designation: "Sofware Engineer",
+    designation: "Senior Front Engineer",
     time: "2019 - Present",
   },
   {

@@ -3,9 +3,9 @@ const Header = ({ dark }) => {
     <div className="orido_tm_header">
       <div className="header_in">
         <div className="logo">
-          {/* <a href="#">
-            <img src={`img/logo/${dark ? "light" : "logo"}.png`} alt="" />
-          </a> */}
+          <a href="#">
+            <img src={`img/logo/${dark ? "logo" : "logo"}.png`} alt="" />
+          </a>
         </div>
         <div className="menu">
           <ul className="anchor_nav">
@@ -18,12 +18,12 @@ const Header = ({ dark }) => {
             <li>
               <a href="#service">Service</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio">Portfolio</a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#blog">Blog</a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact">Contact</a>
             </li>

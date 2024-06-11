@@ -12,9 +12,9 @@ import Layout from "../src/layouts/Layout";
 import MobileMenu from "../src/layouts/MobileMenu";
 import Mouse from "../src/layouts/Mouse";
 import ProgressBar from "../src/layouts/ProgressBar";
-const Projects = dynamic(() => import("../src/components/Projects"), {
-  ssr: false,
-});
+// const Projects = dynamic(() => import("../src/components/Projects"), {
+//   ssr: false,
+// });
 const Partners = dynamic(() => import("../src/components/Partners"), {
   ssr: false,
 });
@@ -28,10 +28,10 @@ const Index = () => {
       <About />
       <ExpertAreas />
       <Services />
-      <Projects />
-      <Feedback />
-      <Blog />
-      <Partners />
+      {/* <Projects /> */}
+      {/* <Feedback />
+      <Blog /> */}
+      {/* <Partners /> */}
       <Contact />
       <CopyRight />
       <Mouse />

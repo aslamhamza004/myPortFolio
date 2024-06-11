@@ -52,8 +52,8 @@ const Contact = () => {
               </ul>
             </div>
             <div className="right">
-              <div className="orido_tm_follow">
-                <span>Follow me:</span>
+              {/* <div className="orido_tm_follow">
+                <span>Follow me Hsam:</span>
                 <ul>
                   <li>
                     <a href="#">
@@ -79,7 +79,7 @@ const Contact = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

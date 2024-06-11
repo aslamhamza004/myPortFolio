@@ -77,7 +77,7 @@ body.dark .orido_tm_header .menu .ccc{
 body.dark .orido_tm_header .button a{
 	background-color: #fff;
 	boder-color: #fff;
-	color: #12141D;
+	color: #0C2A44;
 }
 body.dark .orido_tm_hero .short .job{
 	color: #fff;
@@ -95,17 +95,17 @@ body.dark .orido_tm_simple_button a .svg path{
 	fill: #fff;
 }
 body.dark .orido_tm_boxed_button a:hover{
-	color: #12141D;
+	color: #0C2A44;
 	background-color: #fff;
 }
 body.dark .orido_tm_boxed_button a:hover .svg path{
-	fill:#12141D;
+	fill:#0C2A44;
 }
 body.dark .orido_tm_follow ul li a:hover{
 	background-color: #6244C5;
 }
 body.dark .orido_tm_about .experience{
-	color: #12141D;
+	color: #0C2A44;
 }
 body.dark .orido_tm_main_title h3 span:before{
 	background-color: #fff;
@@ -132,7 +132,7 @@ body.dark .orido_tm_informations .timelinebox .job span:before{
 	background-color: #fff;
 }
 body.dark .orido_tm_counter .counter_list h3{
-	-webkit-text-stroke:1px #12141D;
+	-webkit-text-stroke:1px #0C2A44;
 }
 body.dark .orido_tm_service{
 	background-color: #302f43;
@@ -162,16 +162,16 @@ body.dark .orido_tm_service .service_list .right .svg path{
 	fill: #98A5FF;
 }
 body.dark .orido_tm_portfolio .orido_tm_main_title h3{
-	color: #12141D;
+	color: #0C2A44;
 }
 body.dark .orido_tm_portfolio .orido_tm_main_title h3 span:before{
-	background-color: #12141D;
+	background-color: #0C2A44;
 }
 body.dark .orido_tm_portfolio .portfolio_list .category{
-	color: #12141D;
+	color: #0C2A44;
 }
 body.dark .orido_tm_portfolio .portfolio_list .title{
-	color: #12141D;
+	color: #0C2A44;
 }
 body.dark .orido_tm_testimonials{
 	background-color: #302f43;
@@ -189,13 +189,13 @@ body.dark .orido_tm_news .news_list > ul > li .list_inner{
 	background-color: #FFF2C7;
 }
 body.dark .orido_tm_news .metabox span{
-	color: #12141D;
+	color: #0C2A44;
 }
 body.dark .orido_tm_news .orido_tm_simple_button a{
-	color: #12141D;
+	color: #0C2A44;
 }
 body.dark .orido_tm_news .orido_tm_simple_button a .svg path{
-	fill: #12141D;
+	fill: #0C2A44;
 }
 body.dark .orido_tm_contact .orido_tm_follow ul li a:hover{
 	background-color: #fff;
