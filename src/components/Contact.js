@@ -20,8 +20,8 @@ const Contact = () => {
             <div className="text">
               <h3>{`Let's`} work together</h3>
               <p>
-                You can express yourself however you want and whenever you want,
-                for free. You can customize a template or make your own.
+                I’d love to hear about your project and see how we can create
+                something incredible together. Let’s chat!
               </p>
             </div>
             <div className="orido_tm_boxed_button">
