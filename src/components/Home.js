@@ -12,7 +12,8 @@ const Home = ({ dark }) => {
             </div>
             <div className="text">
               <p>
-              Leveraging years of web development expertise to create impactful online experiences tailored to your unique needs.
+                Leveraging years of web development expertise to create
+                impactful online experiences tailored to your unique needs.
               </p>
             </div>
             <div className="buttons">
@@ -23,9 +24,13 @@ const Home = ({ dark }) => {
                 </a>
               </div>
               <div className="orido_tm_simple_button">
-                <a className="line_effect anchor" href="#portfolio">
-                  My Works{" "}
-                  <img className="svg" src="img/svg/top-arrow.svg" alt="" />
+                <a
+                  className="line_effect anchor"
+                  href="https://www.upwork.com/freelancers/aslamhamza004"
+                  target="black"
+                >
+                  My Upwork{" "}
+                  <img className="svg" src="img/svg/upwork-logo.svg" alt="" />
                 </a>
               </div>
             </div>
@@ -35,7 +40,11 @@ const Home = ({ dark }) => {
           <span>Follow me:</span>
           <ul>
             <li>
-              <a href="https://github.com/aslamhamza004" target="blank" title="Github">
+              <a
+                href="https://github.com/aslamhamza004"
+                target="blank"
+                title="Github"
+              >
                 <img className="svg" src="img/pics/gitLogo.svg" alt="" />
               </a>
             </li>
