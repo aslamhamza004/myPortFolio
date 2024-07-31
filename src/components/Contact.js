@@ -37,7 +37,7 @@ const Contact = () => {
                   <span className="name">Call:</span>
                   <p>
                     <a className="line_effect" href="#">
-                      +92 (302) 1843472
+                      +92 (304) 1843472m
                     </a>
                   </p>
                 </li>
